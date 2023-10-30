@@ -1,7 +1,10 @@
+cmake_minimum_required(VERSION 3.25)
+
 set(NAME aoc2022)
 project(${NAME})
 
-cmake_minimum_required(VERSION 3.25)
+set(CMAKE_CXX_STANDARD 20)
+
 include_directories("${PROJECT_SOURCE_DIR}/src")
 
 file(GLOB lib_src "${PROJECT_SOURCE_DIR}/src/*.cpp")
