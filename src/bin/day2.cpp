@@ -5,6 +5,7 @@
 #include <string>
 #include <unordered_map>
 #include <vector>
+#include <algorithm>
 
 enum class Sign { Rock = 0, Paper = 1, Scissors = 2 };
 enum class Result { Win = 6, Draw = 3, Lose = 0 };
